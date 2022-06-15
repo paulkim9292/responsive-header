@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: vw;
+    height: 150vh;
+    background-color: antiquewhite;
+}
+
+main p {
+    color: #1a2847;
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    padding: 70vh 0;
+}
+
+.navbar {
+    display: flex;
+    background-color: #1a2847;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navbar__logo {
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0rem 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar__logo i {
+    padding: 0.3em;
+    font-size: 2rem;
+}
+
+.navbar__logo p {
+    padding: 0.3em;
+}
+
+.navbar__menubar {
+    display: flex;
+    justify-content: center;
+    font-size: 1rem;
+    font-weight: 600;
+    list-style: none;
+    padding-left: 0;
+    white-space: nowrap;
+    flex-wrap: wrap;
+}
+
+.navbar__menubar li {
+    padding: 0.8em;
+}
+
+.navbar__menubar li:hover {
+    background-color: #d49466;
+    border-radius: 8px;
+}
+
+.navbar__search {
+    color: aliceblue;
+    display: flex;
+}
+
+.navbar__search button {
+    background: none;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+}
+
+.navbar__search input {
+    padding: 0.5rem;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 1px solid aliceblue;
+    margin-right: 1.5rem;
+    font-size: 17px;
+    background-color: transparent;
+    outline: none;
+    color: aliceblue;
+}
+
+.navbar__search input::placeholder {
+    color: aliceblue;
+}
