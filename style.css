@@ -36,7 +36,7 @@ a {
     color: aliceblue;
     font-size: 1.5rem;
     font-weight: 600;
-    padding: 0rem 3rem;
+    padding: 0rem 2rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -100,6 +100,14 @@ a {
     color: aliceblue;
 }
 
+.navbar__toggle {
+    display: none;
+    position: absolute;
+    font-size: 1.5em;
+    right: 1em;
+    top: 0.5em;
+}
+
 @media screen and (max-width: 768px) {
     .navbar {
         flex-direction: column;
@@ -117,6 +125,7 @@ a {
     }
 
     .navbar__menubar {
+        display: none;
         flex-direction: column;
         align-items: center;
         width: 100%;
@@ -133,6 +142,7 @@ a {
     }
 
     .navbar__search {
+        display: none;
         justify-content: center;
         width: 100%;
         margin: 0.5em 0 1.5em 0;
@@ -141,5 +151,9 @@ a {
     .navbar__search input {
         margin-right: 0;
         width: 40%;
+    }
+
+    .navbar__toggle {
+        display: block;
     }
 }
