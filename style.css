@@ -137,6 +137,11 @@ a {
         text-align: center;
     }
 
+    .navbar__menubar li a {
+        display: block;
+        width: 100%;
+    }
+
     .navbar__menubar li:hover {
         border-radius: 0;
     }
@@ -155,5 +160,10 @@ a {
 
     .navbar__toggle {
         display: block;
+    }
+
+    .navbar__menubar.active,
+    .navbar__search.active {
+        display: flex;
     }
 }
